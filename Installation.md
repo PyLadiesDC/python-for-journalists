@@ -120,10 +120,18 @@ Now you are inside your virtual environment and you are ready to start working o
 
 >If you use your own python remember to activate your environment with `source myvenv/bin/activate`
 
-### 3.4 Run Jupyter notebook
+## 5. Download all the required files
+All the files that you need are in PyLadiesDC GitHub online repository and can be donwloaded easily:  
+  * Go to https://github.com/PyLadiesDC
+  * Select the repo python-for-journalists
+  * In the 'Clone or Download it' button select your choice:
+      * If you don't use git regularly just use the option 'Download Zip' and unzip the files in your computer 
+      * If you are familiar with git, just clone the repo if you want
+
+## 6. Run Jupyter notebook
 The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. We will use it to run our Python scripts and check the output of our code. We'll provide you the script you'll need in order to follow the workshop.
 
-With your virtual environment activated run the following command:
+With your virtual environment activated, go to the folder you just downloaded and run the following command:
 
 ```
 jupyter notebook
@@ -132,8 +140,8 @@ A server will be launched and a new tab will be open in your default browser (by
 
 The server takes the control of your terminal, so if you need to run any command on it, either you stop the server with CTRL+C, or you send the process to the background (checkout this [link](http://www.thegeekstuff.com/2010/05/unix-background-job)). If you are not really familiarized with unix commands we recommend you to stop and relaunch the server any time you need it, or open two terminals. In the latter case do not forget to activate your virtual environment in both of them.
 
-## 4. Shutting down
-### 4.1 Deactivating environment
+## 7. Shutting down
+### 7.1 Deactivating environment
 Check again the conda cheat sheet we provided to learn how to manage the environments. In order to deactivate your virtual environment (you can always simply close the terminal) you should run the following command:
 
 ```
@@ -142,7 +150,7 @@ source deactivate
 
 > For standard python environments with the `deactivate` command is enough.
 
-### 4.2 Returning your Path to the original value
+### 7.2 Returning your Path to the original value
 If you ever need to use your system's Python, instead of the Anaconda's Python we have been using today. Remember that we updated your PATH, so anytime you run the `python` command you'll be using the Anaconda one. In order to avoid that, you can comment the lines of code we have added to either your `.bashrc` or your `.bash_profile` file. Or, for Windows systems, delete the route you just added to your path.
 
 If you want to run condas without having the path updated you may:
