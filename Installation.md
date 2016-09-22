@@ -122,8 +122,7 @@ Now you are inside your virtual environment and you are ready to start working o
 
 ## 5. Download all the required files
 All the files that you need are in PyLadiesDC GitHub online repository and can be donwloaded easily:  
-  * Go to https://github.com/PyLadiesDC
-  * Select the repo python-for-journalists
+  * Go to the workshop repo https://github.com/PyLadiesDC/python-for-journalists
   * In the 'Clone or Download it' button select your choice:
       * If you don't use git regularly just use the option 'Download Zip' and unzip the files in your computer 
       * If you are familiar with git, just clone the repo if you want
