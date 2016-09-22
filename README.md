@@ -23,7 +23,7 @@ We'll be working together today with a real data set which contains the cases of
 * To [iStrategyLabs](https://isl.co/), for providing us the space for the workshop. Thank you soooo much!!
 * To PyLadies for providing the original idea of the workshop.
 
-# Let's get this party started
+# Let's get this party started!!!
 * First go through the [Installation document](Installation.md)
 * Download or clone this repo
 * If you want to run the python presentation locally (you need jupyter notebook installed) run this command:
