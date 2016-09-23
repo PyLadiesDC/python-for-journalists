@@ -110,7 +110,8 @@ The name of your new virtual environment will be **`myvenv`** and you will be ad
 ### 3.3 Activate your virtual environment
 Now you need to activate the virtual environment you just created. The command that will do that for you is:
 ```
-source activate myvenv
+source activate myvenv  # Linux and Mac OSX
+activate myvenv         # Windows
 ```
 If the virtual environment was successfully activated you should see that the prompt in your terminal has changed to something like this:
 ```
